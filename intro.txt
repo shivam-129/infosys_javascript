@@ -1,0 +1,138 @@
+To implement the requirement of handling user action like a click of a button or link and to respond to these requests by displaying the expected output, server-side languages like Java/JSP can be used as shown in the below diagram.
+
+ 
+
+
+But server-side languages have certain limitations such as :-
+
+Multiple request-response cycles to handle multiple user requests
+More network bandwidth consumption
+Increased response time
+If client-side scripting language JavaScript is used then, this can be done without consulting the server as can be seen in the below diagram.
+
+ 
+
+
+The home page of MyMovie.com contains the SignUp link. The user performs click action on this link. The user action is handled on the client side itself with the help of the JavaScript code. This code arrives on the client along with the home page of the application.
+
+When invoked on click of the link, this code executes on the client-side itself to validate the user-entered data and accordingly display the corresponding view.
+
+Following are the advantages of this approach:
+
+No need for back and forth request-response cycles
+Less network bandwidth consumption
+In comparison to Java: JavaScript provides a 35% decrease in average response time and Pages being served 200ms faster.
+
+
+
+
+
+
+
+About ES6:
+
+JavaScript was introduced as a client-side scripting language in 1995.
+
+ECMAScript established a standard for scripting languages in 1997.
+
+ES is a parent of many scripting languages like TypeScript, JScript, ActionScript, and JavaScript.
+
+JavaScript evolved year after year with every new version of ECMAScript introducing new features.
+
+ES6 also called ES2015.
+
+ES6 introduces new transformed syntax to extend existing JavaScript constructs to meet the demands of complex applications written in JavaScript.
+
+Below are some of the features that got introduced which extend the ability of JavaScript to ease the developer's web development 
+
+Block scope variables using let and const keywords
+
+Template Literals
+
+Destructuring
+
+Arrow functions
+
+Enhanced for loop
+
+Default and Rest parameters
+
+Spread operator
+
+Classes and Objects
+
+Inheritance
+
+Native Promises
+
+Many other built-ins
+
+The applications which have been implemented in ES6 uses the best practices, new web standards, and cutting-edge features, without using additional frameworks or libraries.
+
+ES6 is also completely backward compatible. The features like Object Oriented
+ support, New programming constructs, Modules, Templates, support for promises, etc. made ES6 faster.
+
+
+
+
+
+
+JavaScript was not originally named as JavaScript. It was created as a scripting language in 1995 over the span of 10 days with the name 'LiveScript'.
+
+The Scripting language is the one that controls the environment in which it runs.
+
+But now JavaScript is a full-fledged programming language because of its huge capabilities for developing web applications. It contains core language features like control structures, operators, statements, objects, and functions.
+
+JavaScript is an interpreted language. The browser interprets the JavaScript code embedded inside the web page, executes it, and displays the output. It is not compiled to any other form to be executed.
+
+All the modern web browsers are with the JavaScript Engine, this engine interprets the JavaScript code. There is absolutely no need to include any file or import any package inside the browser for JavaScript interpretation.
+
+ 
+
+
+JavaScript code can be embedded within the HTML page or can be written in an external file. 
+
+There are three ways of writting JavaScript depending on the platform : 
+
+Inline Scripting
+
+Internal Scripting
+
+External Scripting
+
+
+
+
+
+
+
+
+When JavaScript code are written within the HTML file itself, it is called internal scripting.
+
+Internal scripting, is done with the help of HTML tag :  <script> </script>
+
+This tag can be placed either in the head tag or body tag within the HTML file. 
+
+JavaScript code written inside <head> element is as shown below : 
+
+<html>
+<head>
+    <script>
+        //internal script
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+JavaScript code written inside <body> element is as shown below :
+
+<html>
+<head>
+</head>
+<body>
+    <script>
+        //internal script
+    </script>
+</body>
+</html>

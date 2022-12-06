@@ -1,0 +1,105 @@
+<!-- Event 
+
+Event-handler 
+
+                   Description 
+
+click 
+
+onclick 
+When the user clicks on an element, the event handler onclick handles it. 
+
+
+
+keypress 
+
+onkeypress 
+When the user presses the keyboard's key, event handler onkeypress handles it. 
+
+
+
+keyup 
+
+onkeyup 
+When the user releases the keyboard's key, the event handler onkeyup handles it. 
+
+
+
+load 
+
+onload 
+When HTML document is loaded in the browser, event handler onload handles it 
+
+
+
+blur 
+
+onblur 
+When an element loses focus, the event handler onblur handles it. 
+
+
+
+change 
+
+onchange 
+When the selection of checked state change for input, select or text-area element changes, event handler onchange handles it. 
+
+ 
+
+Event handlers are associated with HTML elements and are responsible to handle or listen to the event taking place on the respective element.
+
+Syntax:
+
+<html-element eventHandler="JavaScript code"> 
+Example: 
+
+To listen to the click event on the paragraph element, it is done as shown below:
+
+<p onclick="executeMe();">Para says !!! </p> 
+When the user clicks on element 'p', event handler 'onclick' listens to the event 'click' and executes the 'executeMe' code written in JavaScript file against the event handler. 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+<!-- As seen in event handling code, event-handler is a piece of JavaScript code put inside the HTML Paragraph element . -->
+<!-- <p onclick="executeMe();">Para says !!! </p> 
+ On the right-hand side of this code instead of invoking a function, lines of code can be directly written as shown below: -->
+
+ <!-- <p onclick="alert('A click event has been triggered by the user');">Para says !!! </p>  -->
+<!-- This is referred to as Inline Scripting where lines of JavaScript code is embedded inline to HTML elements. -->
+
+<!-- However, due to tight coupling with the elements in which the code is written, this approach is not suggested. 
+    The alternate and much better approach is to use functions in JavaScript. -->
+
+ <!-- Best Practice: Event listeners are the most preferred way to handle events in JavaScript. One of the major points to use event 
+    listeners is, it does allow us to add multiple event listeners on the same element when compared with the "on" properties like 
+    onmouseclick, onmouseover, etc.. -->
+
+<!-- 
+    <script src="event.js">
+
+    </script>  -->
+
+
+
+
+<html> 
+  <body> 
+    <input type='text' id='text1' onkeyup="console.log('Task 1')" 
+     onkeydown="console.log('Task 2')" onkeypress="console.log('Task 3')"> 
+  </body> 
+</html> 
+ 

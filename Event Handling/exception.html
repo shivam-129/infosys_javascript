@@ -1,0 +1,43 @@
+<!-- Exception handling is accomplished with a try...catch statement. When the program encounters an exception, the program will terminate in an unfriendly manner. To protect against this, the code can be placed in a try...catch statement and avoid terminating the program unexpectedly. 
+
+Try statements: It lets the developer validate a block of code whether it will result in some errors or not. 
+Catch statements: It lets the developer handle the error without terminating the program in an unfriendly manner. 
+Throw statements: It helps the developer to create custom errors. 
+Finally statements: It lets the developer execute code, after the try and catch block execution, irrespective of the result.  -->
+
+<html>
+<head>
+    <script>
+        let num1 = 100;
+        let num2 = 6;
+        try {
+            if (isNaN(num1) || isNaN(num2)) {
+                throw "Not a number"
+            }
+            else {
+                if (num2 == 0) {
+                    throw "Divide by zero error";
+                }
+                else {
+                    let result = num1 / num2;
+            console.log(result)
+
+                }
+            }
+        }
+        catch (e) {
+            console.log("Error: " + e);
+        }
+        finally {
+            console.log("complete program");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+
+
+<!-- Here, num2 is 0 so when you try to divide num1 by num2 it will throw Divide by zero error. Also, finally()
+ is called whenever an error occurs. So as a result, two statements will be printed: "Divide by zero" and "Some error occurred".  -->

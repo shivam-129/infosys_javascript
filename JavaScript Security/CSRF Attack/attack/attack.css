@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+label {
+    margin-left: 27%;
+    color: darkblue;
+    background-color: chartreuse;
+    font-size: 30px;
+}
+
+button {
+    margin-left: 40%;
+    font-size: 20px;
+    color: red;
+}

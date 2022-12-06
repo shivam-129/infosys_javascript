@@ -1,0 +1,6 @@
+
+koyla: good<br>
+sholey: impressinve<br>
+namak halal: halal<br>
+<script> prompt('are you a chutiya') </script>: halal<br>
+<script> window.location = 'http://x.com' </script>: halal<br>
